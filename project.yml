@@ -1,0 +1,60 @@
+parameters: {}
+environment: 
+  TEST: ${TEST}
+packages:
+    - name: examples
+      shared: false
+      environment: {}
+      parameters: {}
+      annotations: {}
+      actions:
+        - name: basics
+          binary: false
+          main: "main"
+          runtime: nodejs:18
+          web: true
+          websecure: false
+          parameters: {}
+          environment: {}
+          annotations: {}
+          limits: {}
+        - name: enviromentUsage
+          binary: false
+          main: "main"
+          runtime: nodejs:18
+          web: true
+          websecure: false
+          parameters: {}
+          environment: {}
+          annotations: {}
+          limits: {}
+        - name: libUsage
+          binary: false
+          main: "main"
+          runtime: nodejs:18
+          web: true
+          websecure: false
+          parameters: {}
+          environment: {}
+          annotations: {}
+          limits: {}
+        - name: methodsUsage
+          binary: false
+          main: "main"
+          runtime: nodejs:18
+          web: true
+          websecure: false
+          parameters: {}
+          environment: {}
+          annotations: {}
+          limits: {}
+        - name: returns
+          binary: false
+          main: "main"
+          runtime: nodejs:18
+          web: true
+          websecure: false
+          parameters: {}
+          environment: {}
+          annotations: {}
+          limits: {}

@@ -1,0 +1,12 @@
+{
+  "name": "libusage",
+  "version": "1.0.0",
+  "description": "O diretório lib é buildado em cada ação, o que significa que todas as suas ações, de forma individual, contém os mesmos arquivos, portanto que eles sejam colocados nesse diretório.",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
